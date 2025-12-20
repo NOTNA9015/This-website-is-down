@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Down</title>
+    <style>
+        /* Full height and remove default margin */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 50px;
+            color: #555;
+            animation: pulse 2s infinite;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Simple pulsing animation */
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">⚙️</div>
+        <div class="message">This website is down for improvements.</div>
+    </div>
+</body>
+</html>
